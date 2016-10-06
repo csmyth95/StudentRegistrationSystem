@@ -13,7 +13,7 @@
     <distributionManagement>
       <repository>
           <id>dropbox.repo</id>
-          <url>file:///Users/conor/Dropbox/Public/csmyth-mvn-repo</url>
+          <url>https://www.dropbox.com/sh/8hoq28mml5z6p01/AACNKgJ7HC2A8DFfT-5oCAzga?dl=0</url>
       </repository>
     </distributionManagement>       
     <dependencies>
