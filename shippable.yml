@@ -4,7 +4,10 @@ jdk:
   - oraclejdk8
 
 script:
-  - mvn clean install
+  - mvn clean compile assembly:single
+  
+after_success:
+ - java -jar /root/.m2/repository/com/nuig/StudentRegistrationDriver/1.0-SNAPSHOT/StudentRegistrationDriver-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 notifications:
    email: false
