@@ -11,16 +11,16 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties> 
     <distributionManagement>
-      <repository>
-          <id>dropbox.repo</id>
-          <url>https://www.dropbox.com/sh/8hoq28mml5z6p01/AACNKgJ7HC2A8DFfT-5oCAzga?dl=0</url>
-      </repository>
+        <repository>
+            <id>dropbox.repo</id>
+            <url>https://www.dropbox.com/home/Public/csmyth-mvn-repo</url>
+        </repository>
     </distributionManagement>       
     <dependencies>
         <dependency>
             <groupId>com.nuig</groupId>
             <artifactId>RegistrationBuilder</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
         <dependency>
