@@ -5,6 +5,9 @@ jdk:
 
 script:
   - mvn clean install
+  
+after_success:
+  - java -jar /root/.m2/repository/com/nuig/StudentRegistrationDriver/1.0-SNAPSHOT/StudentRegistrationDriver-1.0-SNAPSHOT.jar
 
 notifications:
    email: false
